@@ -61,6 +61,6 @@ def find_the_cheese(source_array)
   if i 
     puts cheese_types[i]
   else 
-    return false
+    return i
   end
 end
