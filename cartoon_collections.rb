@@ -31,15 +31,16 @@ def long_planeteer_calls(source_array)
   # code an argument here
   # Your code here
   i = 0
+  i2 = 0
   source_array.length.times do
-    if source_array[i].size > 4
-       return true
-    else
-       
-       return true
+    if source_array[i].size <= 4
+       i2 += 1
     end   
     i += 1
   end  
+  if i2 == i 
+     return false
+  end
 end
 
 
