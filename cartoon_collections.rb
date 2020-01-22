@@ -59,7 +59,7 @@ def find_the_cheese(source_array)
      i = 2
   end
   if i 
-     puts cheese_types[i]
+    return cheese_types[i]
   else 
     return i
   end
