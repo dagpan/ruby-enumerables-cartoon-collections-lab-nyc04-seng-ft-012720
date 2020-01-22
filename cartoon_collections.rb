@@ -40,6 +40,8 @@ def long_planeteer_calls(source_array)
   end  
   if i2 == i 
      return false
+  else
+     return true
   end
 end
 
