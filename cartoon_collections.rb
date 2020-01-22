@@ -31,18 +31,14 @@ def long_planeteer_calls(source_array)
   # code an argument here
   # Your code here
   i = 0
-  check = 0
   source_array.length.times do
     if source_array[i].size > 4
-    
+       return true
+    end   
     i += 1
-    end  
+  end  
 end
 
-
-
-
-end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
