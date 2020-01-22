@@ -50,11 +50,13 @@ def find_the_cheese(source_array)
   # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0
+  
   if source_array.include?("cheddar")
-
-
-
+     cheese = "cheddar"
+  elsif source_array.include?("gouda")
+     cheese = "gouda"
+  elsif source_array.include?("camembert")
+     cheese = "camembert"
 
 
 
