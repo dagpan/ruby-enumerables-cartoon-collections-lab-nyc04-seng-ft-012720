@@ -12,9 +12,11 @@
 def roll_call_dwarves(source_array)
   # code an argument here
   # Your code here
-  
-
-
+  i = 0
+  source_array.length.times do
+    puts "#{source_array[i]}/n"
+    i += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
