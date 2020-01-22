@@ -58,9 +58,5 @@ def find_the_cheese(source_array)
   elsif source_array.include?("camembert")
      i = 2
   end
-  if i 
-    return cheese_types[i]
-  else 
-    return i
-  end
+  return cheese_types[i]
 end
