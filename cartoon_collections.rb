@@ -16,7 +16,7 @@ def roll_call_dwarves(source_array)
   i = 0
 
   source_array.length.times do
-    puts "#{source_array[i]}/n"
+    puts "#{i + 1}.#{source_array[i]}/n"
     i += 1
   end
 end
