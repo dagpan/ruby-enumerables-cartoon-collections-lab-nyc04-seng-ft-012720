@@ -53,16 +53,10 @@ def find_the_cheese(source_array)
   i = nil
   if source_array.include?("cheddar")
      i = 0
-     cheese = "cheddar"
-     break
   elsif source_array.include?("gouda")
      i = 1
-     cheese = "gouda"
-     break
   elsif source_array.include?("camembert")
      i = 2
-     cheese = "camembert"
-     break
   end
   if i 
     puts cheese_types[i]
